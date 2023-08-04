@@ -8,9 +8,9 @@ s.homepage = 'https://mdp.sportradar.com'
 s.license = 'Demo'
 s.authors = {'Mobile Development Team'=>'mobile-dev@sportradar.com'}
 s.framework = 'UIKit','SwiftUI'
-s.source = { :http => 'https://vs-artifacts.mapinonprod.sportradar.com/apple/virtual-stadium-ios-ui-sdk/5a5305d6/release/VirtualStadiumUISDK.xcframework.zip'}
+s.source = { :http => 'https://vs-artifacts.mapinonprod.sportradar.com/apple/virtual-stadium-ios-ui-sdk/293deb81/release/VirtualStadiumUISDK.xcframework.zip'}
 
-s.dependency 'VirtualStadiumDataSDK', '~> ', :source => 'https://gitlab.sportradar.ag/MobileApps/Mobile-SDK-iOS-Pods.git'
+s.dependency 'VirtualStadiumDataSDK', '~> '
 
 
 s.platform = :ios, '13.0'
